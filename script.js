@@ -64,7 +64,7 @@ function updateSettings() {
     );
   popup(settings.div);
 }
-
+//导出为JSON
 function exportToJson() {
   var xhr = new XMLHttpRequest();
   const date = new Date().getTime();
